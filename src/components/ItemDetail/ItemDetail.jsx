@@ -13,7 +13,7 @@ const ItemDetail = ({id, nombre, precio, img, stock}) => {
 
   const manejadorCantidad = (cantidad) => {
     setAgregarCantiddad(cantidad);
-   // console.log("Productos agregados:" + cantidad);
+    
    const item = {id, nombre, precio};
    agregarProducto(item, cantidad);
   }
